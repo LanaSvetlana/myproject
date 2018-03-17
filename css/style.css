@@ -1,0 +1,368 @@
+.introduce{
+	background-image: url(../image/background.png);
+    width: 1589px;
+	height: 758px;
+}
+.family {
+	display: flex;
+	justify-content: space-between;
+	background: white;
+	width: 1246px;
+    height: 96px;
+	margin: 0 auto;
+}
+
+.logo {
+	display: inline-block;
+    width: 149px;
+    height: 29px;
+    margin: 58px 30px 15px 35px;
+}
+.color {
+	font-family: 'Open Sans', 'Arial', sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+	color: black;
+}
+.color1 {
+	font-family: 'Open Sans', 'Arial', sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+    color: #a6a5a6;
+}
+.main-menu{
+
+	/* Задаем отступы для всего блока меню сверху, справа и снизу */
+	margin: 65px 43px 15px 0;
+}
+
+.main-menu li{
+	display: inline-block;
+
+	/* Убираем строку про width, нам нет необходимости делать все элементы одинаковой ширины
+	(на макете текст в кнопках тоже разной ширины), поэтому пускай будет размер по содержимому*/
+	/*width: 25%;*/
+
+	color: black;
+
+	/* padding тоже будет интересовать только слева, т.е. только от левого элемента, т.к. все остальные мы задали у родителя main-menu*/
+	padding: 0 0 0 20px;
+
+	/* margin лучше задать у родителя, а не у каждого ребенка (оптимальнее), уже задали у main-menu*/
+	/*margin: 10px;*/
+}
+
+.introduce_text {
+
+	/*	position relative тут излишне, т.к. мы ничего не позиционируем относительно этого блока
+	text-align: left; по умолчанию у элементов, нет смысла указывать его еще раз
+	padding: 10px - по идее, нам нужен только внешний отступ - margin, внутреннего для этого блока нет
+	*/
+	/*	position: relative;
+	text-align: left;*/
+	margin: 192px 50px 50px 202px;	
+}
+.mobileapp {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 42px;
+	color: #fff;
+	margin: 0;
+}
+.mobileapp_text {
+	font-family: 'Open Sans', 'Arial', sans-serif;
+	font-weight: 600;
+	font-size: 22px;
+	color: #fff;
+}
+.item {
+	font-family: 'Open Sans', 'Arial' sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+	margin: 20px 0;
+}
+.push {
+	color: #fff;
+	background: #45bea3;
+	border: 1px;
+	margin: 135px 12px;
+	padding: 17px 70px;
+}
+.phone1 {
+	position: absolute;
+	right: 100px;
+	top: 250px;
+}
+.phone {
+    position: absolute;
+	right: 200px;
+	top: 250px;
+}
+.key {
+	text-align: center;
+	margin: 40px 0;
+}
+.subtitle_key {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 28px;
+	color: #45bea3;
+}
+
+.text_key {
+	font-family: 'Open Sans', 'Arial' sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	margin: 20px auto;
+	max-width: 50%;
+}
+.roll {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+.roll ul, .phone2{
+
+
+	/*А вот сюда мы уже вставляем стили для их расположения в один ряд*/
+	width: 30%;
+	display: inline-block;
+    vertical-align: top;
+
+}
+.amet {
+	list-style: none;
+}
+.amet1 {
+	display: flex;
+	margin: 60px 0 20px 0;
+}
+.text_donec {
+	font-family: 'Open Sans', 'Arial' sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	color: #282528;
+	max-width: 250px;
+	margin: 0 0 0 30px;
+}
+.amet_title {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	color: #686768;
+	margin: 0;
+}
+
+
+.phone2 {
+/*	width: 30%;*/
+	margin: 20px 50px 20px 50px;
+/*	float: left;*/
+}
+
+.watchvideo {
+	background-image: url(../image/background_video.png);
+	width: 1589px;
+	height: 447px;
+}
+.watch {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 28px;
+	color: black;
+}
+.text {
+	font-family: 'Open Sans', 'Arial' sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+}
+
+.team {
+	text-align: center;
+	margin: 40px 0;
+}
+.subtitle_team {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 28px;
+	color: #45bea3;
+}
+.text_team {
+	font-family: 'Open Sans', 'Arial' sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	color: #5b646e;
+	margin: 20px auto;
+	max-width: 50%;
+}
+.block_team {
+	display: flex;
+	justify-content: space-around;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.block_person {
+	position: relative;
+	margin: 50px 0;
+	width: 283px;
+	height: 283px;
+}
+.block_person_hover {
+	position: absolute;
+	width: 100%;
+	color: white;
+	font-family: 'Open Sans', 'Arial' sans-serif;
+	font-size: 16px;
+	padding: 40px;
+	box-sizing: border-box;
+	z-index: 1;
+	transition: all 0.5s;
+}
+.hover_title{
+	font-weight: 700;
+}
+.hover_text {
+	display: block;
+    font-weight: 400;
+    margin: 20px;
+}
+.team_image {
+	position: relative;
+	width: 283px;
+	margin: 20px 0;	
+}
+.team_image:before{
+	content: "";
+	display: inline-block;
+	width: 96%;
+	height: 99%;
+	background: #45bea3;
+	opacity: 0.8; 
+	position: absolute;
+}
+.team_image1 {
+	width: 283px;
+	margin: 20px 0;
+}
+.block_title {
+	font-family: 'Open Sans', 'Arial' sans-serif;
+	font-weight: 600;
+	color: #45bea3;
+}
+
+.block_title1 {
+	font-family: 'Open Sans', 'Arial' sans-serif;
+	font-weight: 600;
+    color: black;
+}
+.block_text {
+	font-family: 'Open Sans', 'Arial' sans-serif;
+	font-weight: 400;
+    color: #b6babd;
+    margin: 0 auto;
+}
+
+
+.what {
+    text-align: center;
+    margin: 100px 0;
+}
+.subtitle_what {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 28px;
+	color: #45bea3;
+}
+.what_image {
+	display: block;
+	margin: 30px auto;
+}
+.text_what {
+	font-family: 'Open Sans', 'Arial' sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	margin: 20px auto;
+	max-width: 50%;
+}
+
+.contact {
+	text-align: center;
+	margin: 100px 0;
+	background: black;
+    color: white;
+}
+.contact_title {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 28px;
+}
+.contact_subtitle {
+    font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	text-align: left;
+}
+.contact_text {
+	font-family: 'Open Sans', 'Arial' sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	text-align: left;
+}
+
+
+.image_contact {
+	display: flex;
+	justify-content: space-around;
+	max-width: 10%;
+	text-align: left;
+}
+
+.my-input,
+.my-input1,
+.my-textarea,
+.my-button {
+    margin: 20px 50px 0 0;
+}
+
+.my-textarea {
+    width: 570px;
+    height: 179px;
+    color: #c1c1c1;
+}
+.my-input {
+	width: 270px;
+    height: 44px;
+}
+.my-input1 {
+	width: 270px;
+    height: 44px;
+}
+.my-button {
+    display: inline-block;
+    background: #31d4e7;
+    width: 170px;
+    height: 50px;
+}
+
+.my-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-form {
+    max-width: 625px;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
